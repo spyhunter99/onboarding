@@ -1,5 +1,5 @@
 language: android
-jdk: oraclejdk7
+jdk: openjdk7
 android:
   components:
     # The BuildTools version used by your project
@@ -9,6 +9,7 @@ android:
     - build-tools-23.0.1
     - build-tools-23.0.3
     # The SDK version used to compile your project
+    - android-25
     - android-24
     - android-23
     - android-22
