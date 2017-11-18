@@ -28,11 +28,11 @@ Add the following to your `build.gradle`:
 
 # Last version
 
-Published 1/6/2017, v4.0.0
+Published 11/18/2017, v4.0.2
 
 ```groovy
 dependencies {
-    compile 'com.github.spyhunter99:super-tooltip-aar:4.0.0'
+    compile 'com.github.spyhunter99:super-tooltip-aar:4.0.2'
 }
 
 ```
