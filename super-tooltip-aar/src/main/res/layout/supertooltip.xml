@@ -28,7 +28,7 @@
         android:paddingRight="8dp"
         android:scrollbars="none">
 
-        <include layout="@layout/tooltip_textview"/>
+        <include layout="@layout/supertooltip_textview"/>
     </FrameLayout>
 
     <View

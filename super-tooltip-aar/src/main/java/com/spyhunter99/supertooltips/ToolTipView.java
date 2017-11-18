@@ -95,7 +95,7 @@ public class ToolTipView extends LinearLayout implements ViewTreeObserver.OnPreD
     private void initialiseView() {
         setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         setOrientation(VERTICAL);
-        LayoutInflater.from(getContext()).inflate(R.layout.tooltip, this, true);
+        LayoutInflater.from(getContext()).inflate(R.layout.supertooltip, this, true);
 
         topPointerView = (ImageView) findViewById(R.id.tooltip_pointer_up);
         topFrame = findViewById(R.id.tooltip_topframe);
