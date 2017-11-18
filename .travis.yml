@@ -53,7 +53,7 @@ env:
     #api15
     - API=15 ANDROID_TARGET=3  ANDROID_ABI=armeabi-v7a
     #api19
-    - API=19 ANDROID_TARGET=7  ANDROID_ABI=armeabi-v7a
+    - API=19 ANDROID_TARGET=5  ANDROID_ABI=armeabi-v7a
 
 before_install:
   # create and start emulators
